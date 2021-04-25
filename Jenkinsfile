@@ -11,6 +11,7 @@ pipeline {
             credentialsId: env.CREDENTIALS_ID
           ]]])
           sh 'echo hello CODING'
+          echo 'hello CODING'
         }
       }
     }
